@@ -1,5 +1,5 @@
 {-# LANGUAGE PackageImports, BangPatterns, QuasiQuotes, PatternGuards, 
-             MagicHash, ScopedTypeVariables #-}
+             MagicHash, ScopedTypeVariables, TypeFamilies #-}
 {-# OPTIONS -Wall -fno-warn-missing-signatures -fno-warn-incomplete-patterns #-}
 
 -- | Canny edge detector.
