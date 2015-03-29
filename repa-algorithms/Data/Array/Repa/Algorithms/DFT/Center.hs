@@ -8,6 +8,7 @@ module Data.Array.Repa.Algorithms.DFT.Center
 where
 import Data.Array.Repa
 import Data.Array.Repa.Algorithms.Complex
+import Prelude hiding (traverse)
 
 -- | Apply the centering transform to a vector.
 center1d

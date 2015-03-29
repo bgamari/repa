@@ -22,7 +22,7 @@ where
 import Data.Array.Repa.Algorithms.DFT.Roots
 import Data.Array.Repa.Algorithms.Complex
 import Data.Array.Repa				as R
-import Prelude					as P
+import Prelude					as P hiding (traverse)
 
 
 -- | Compute the DFT along the low order dimension of an array.
