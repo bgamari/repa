@@ -10,7 +10,7 @@ import Data.Array.Repa				as R
 import Data.Word
 import System.Environment
 import Control.Monad
-import Prelude					as P
+import Prelude					as P hiding (traverse)
 import qualified Data.Array.Repa.Repr.Unboxed   as U
 
 main :: IO ()

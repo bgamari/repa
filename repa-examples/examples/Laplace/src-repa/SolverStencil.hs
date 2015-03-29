@@ -1,4 +1,4 @@
-{-# LANGUAGE BangPatterns, TemplateHaskell, QuasiQuotes #-}
+{-# LANGUAGE BangPatterns, TemplateHaskell, QuasiQuotes, FlexibleContexts #-}
 module SolverStencil
 	(solveLaplace)
 where	

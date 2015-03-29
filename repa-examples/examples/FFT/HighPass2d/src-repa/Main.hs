@@ -11,7 +11,7 @@ import Control.Monad
 import Data.Word
 import Data.Array.Repa                          as R
 import qualified Data.Array.Repa.Repr.Unboxed   as U
-
+import Prelude hiding (traverse)
 
 main :: IO ()
 main 
