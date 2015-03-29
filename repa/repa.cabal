@@ -21,8 +21,8 @@ Synopsis:
 
 Library
   Build-Depends: 
-        base                 == 4.7.*,
-        template-haskell     == 2.9.*,
+        base                 >= 4.7 && < 4.9,
+        template-haskell     >= 2.9 && < 2.11,
         vector               == 0.10.*,
         ghc-prim             == 0.3.*,
         bytestring           == 0.10.*,

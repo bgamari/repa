@@ -8,6 +8,7 @@ where
 import Data.Array.Repa.Base
 import Data.Array.Repa.Shape
 import Data.Array.Repa.Repr.Delayed
+import Prelude hiding (traverse)
 
 
 -- | Unstructured traversal.

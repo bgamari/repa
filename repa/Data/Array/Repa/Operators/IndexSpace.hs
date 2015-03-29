@@ -16,7 +16,7 @@ import Data.Array.Repa.Base
 import Data.Array.Repa.Repr.Delayed
 import Data.Array.Repa.Operators.Traversal
 import Data.Array.Repa.Shape		as S
-import Prelude				hiding ((++))
+import Prelude				hiding ((++), traverse)
 import qualified Prelude		as P
 
 stage	= "Data.Array.Repa.Operators.IndexSpace"
