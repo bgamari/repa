@@ -16,8 +16,8 @@ import Data.Repa.Array.Meta.Window              as A
 import Control.Monad
 import qualified Data.Repa.Flow.Generic         as G
 import qualified Data.Sequence                  as Q
-import qualified Data.Foldable                  as Q
-import Prelude                                  as P
+import qualified Data.Foldable                  as Q hiding (length)
+import Prelude                                  as P hiding (length)
 #include "repa-flow.h"
 
 
