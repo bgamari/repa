@@ -16,6 +16,9 @@ Description:
 Synopsis:
         Examples using the Repa array library.
 
+Source-Repository head
+  Type:              git
+  Location:          https://github.com/DDCSF/repa
 
 Executable repa-canny
   Build-depends: 

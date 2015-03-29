@@ -16,6 +16,10 @@ Description:
 Synopsis:
         Algorithms using the Repa array library.
 
+Source-Repository head
+  Type:              git
+  Location:          https://github.com/DDCSF/repa
+
 Library
   Build-Depends: 
         base                 >= 4.7 && < 4.9,
