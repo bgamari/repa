@@ -18,7 +18,7 @@ Synopsis:
 
 Library
   Build-Depends: 
-        base                 == 4.7.*,
+        base                 >= 4.7 && < 4.9,
         vector               == 0.10.*,
         binary               == 0.7.*,
         old-time             == 1.1.*,
