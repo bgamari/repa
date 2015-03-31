@@ -30,7 +30,7 @@ Library
         vector               == 0.10.*,
         ghc-prim             >= 0.3 && < 0.5,
         bytestring           == 0.10.*,
-        QuickCheck           == 2.7.*
+        QuickCheck           >= 2.7 && < 2.9
 
   ghc-options:
         -Wall -fno-warn-missing-signatures
