@@ -20,7 +20,7 @@ source-repository head
 Library
   Build-Depends: 
         base            >= 4.7 && < 4.9,
-        ghc-prim        == 0.3.*
+        ghc-prim        >= 0.3 && < 0.5
 
   Exposed-modules:
         Data.Repa.Eval.Elt

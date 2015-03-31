@@ -28,7 +28,7 @@ Library
         base                 >= 4.7 && < 4.9,
         template-haskell     >= 2.9 && < 2.11,
         vector               == 0.10.*,
-        ghc-prim             == 0.3.*,
+        ghc-prim             >= 0.3 && < 0.5,
         bytestring           == 0.10.*,
         QuickCheck           == 2.7.*
 
